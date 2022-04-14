@@ -52,8 +52,8 @@ If you are not using a Nuxt environment or if you want to import individually in
 Use in html. 
 
   ```html
-  <div :class="{ 'some-class': $sc.desktopAndUp,  'another-class': $sc.desktopAndUp}">
-    ```
+  <div :class="{ 'some-class': $sc.desktopAndUp,  'another-class': $sc.tabletAndDown}">
+  ```
   
   ```html
   <button :v-html="$sc.largeTabletAndDown ? 'Click here' : 'Click here to send me a text' "></button>

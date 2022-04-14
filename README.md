@@ -14,17 +14,8 @@
 
 ## 2. Import
 
-#### Option 1: If you are using Nuxt.js you can make a plugin to inject the property $sc to your Vue instances.
+#### Option 1: If you are using Nuxt.js you can import a plugin to inject the property $sc to your Vue instances.
 
-  ```checkScreenSize.js
-    import checkScreen from '@luaguillande/checkScreenFn.js'
-
-    export default (_context, inject) => {
-        if (process.client) {
-            inject('sc', checkScreen())
-        } 
-    }
-  ```
   ```nuxt.config.js
     plugins: [
         { src: '~/node_modules/@luaguillande/screen-checker/checkScreenPlugin.js'}

@@ -27,7 +27,7 @@
   ```
   ```nuxt.config.js
     plugins: [
-        { src: '~/node-modules/@luaguillande/checkScreenPlugin.js'}
+        { src: '~/node_modules/@luaguillande/screen-checker/checkScreenPlugin.js'}
     ]
   ```
 

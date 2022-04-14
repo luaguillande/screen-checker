@@ -85,6 +85,6 @@ Note: If you are using as a Nuxt injection use '$sc' else use 'sc'.
 
 @luaguillande - 31solutions.com
 
-## You may also like!
+## You might like!
 
 <a target="_blank" href="https://www.npmjs.com/package/@luaguillande/scss_helpers">Scss Helpers Library</a>

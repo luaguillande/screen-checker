@@ -27,7 +27,7 @@
   ```
   ```nuxt.config.js
     plugins: [
-        { src: '~/plugins/checkScreenSize.js'}
+        { src: '~/node-modules/@luaguillande/checkScreenPlugin.js'}
     ]
   ```
 

@@ -1,4 +1,4 @@
-import checkScreen from '@/plugins/checkScreenFn.js'
+import checkScreen from './checkScreenFn.js'
 
 var checkScreenMixin = {
     data: () => ({

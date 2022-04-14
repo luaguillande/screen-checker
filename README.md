@@ -8,10 +8,8 @@
   
 ## 1. Add the plugin to your project
 
-  ```js
-    import Vue from 'vue'
-    import checkScreen from '@/plugins/checkScreen.js'
-    Vue.mixin(checkScreen);
+  ```bash
+    npm i screen-checker
   ```
 
 ## 2. Import

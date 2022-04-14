@@ -9,7 +9,7 @@
 ## 1. Add the plugin to your project
 
   ```bash
-    npm i screen-checker
+    npm i @luaguillande/screen-checker
   ```
 
 ## 2. Import

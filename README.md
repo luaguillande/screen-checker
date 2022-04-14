@@ -85,4 +85,4 @@ Use in js.
 
 ## You might like!
 
-[Scss Helpers Library](https://www.npmjs.com/package/@luaguillande/scss_helpers?target=_blank)
+[Scss Helpers Library](https://www.npmjs.com/package/@luaguillande/scss_helpers)

@@ -42,7 +42,7 @@ If you are not using a Nuxt environment or if you want to import individually in
     import checkScreenMixin from '@luaguillande/checkScreenMixin.js'
 
     export default {
-         mixin:[checkScreenMixin]
+         mixins:[checkScreenMixin]
     }
     </scprit>
   ```

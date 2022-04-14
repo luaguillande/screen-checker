@@ -76,7 +76,7 @@ Use in js.
   ```
 
 
-Note: If you are using as a Nuxt injection use '$sc' else use 'sc'.
+### Note: If you are using as a Nuxt injection use '$sc' else use 'sc'.
 
  
 ## Enjoy!
@@ -85,4 +85,4 @@ Note: If you are using as a Nuxt injection use '$sc' else use 'sc'.
 
 ## You might like!
 
-<a target="_blank" href="https://www.npmjs.com/package/@luaguillande/scss_helpers">Scss Helpers Library</a>
+[Scss Helpers Library](https://www.npmjs.com/package/@luaguillande/scss_helpers){target="_blank"}

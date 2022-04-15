@@ -1,6 +1,6 @@
 # Screen Checker
 
-  Scss Helpers Lbrary is a toolkit of mixins and classes designated to help you to style your SCSS.
+  Vue Plugin to help you to identify the size of the screen without complexity.
 
       
 ## Quick start guide

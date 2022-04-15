@@ -1,4 +1,4 @@
-# Scss Helpers Library 
+# Screen Checker
 
   Scss Helpers Lbrary is a toolkit of mixins and classes designated to help you to style your SCSS.
 

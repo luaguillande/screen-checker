@@ -1,6 +1,6 @@
 {
   "name": "@luaguillande/screen-checker",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vue Plugin to help you to identify the size of the screen without complexity.",
   "main": "",
   "scripts": {

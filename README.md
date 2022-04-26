@@ -12,6 +12,8 @@
     npm i @luaguillande/screen-checker
   ```
 
+<br>
+ 
 ## 2. Import
 
 #### Option 1: If you are using Nuxt.js you can import a plugin to inject the property $sc to your Vue instances.
@@ -45,9 +47,9 @@ If you are not using a Nuxt environment or if you want to import individually in
     </scprit>
   ```
 
-
-
-### 2. Usage
+<br>
+ 
+## 3. Usage
 
 Use in html. 
 
@@ -82,9 +84,9 @@ Use in js.
 
 <br>
 
-### 3. Boundaries
+## 4. Boundaries
 
-#### Specifics screen size
+### Option 1: Specific range
 
   Property | Min Size | Max Size
 --- | --- | --- 
@@ -95,7 +97,7 @@ Use in js.
 `isCell` | 250px | 767px
 
 
-#### Screen size bigger than 
+### Option 2: Screen size bigger than 
 
   Property | Min Size
 --- | --- 
@@ -105,7 +107,7 @@ Use in js.
 `tabletAndUp` | 768px  | 1023px
 `cellAndUp` | 250px
 
-#### Screen size smaller than 
+### Option 3: Screen size smaller than 
 
   Property | Max Size
 --- | --- 
@@ -115,7 +117,7 @@ Use in js.
 `tabletAndDown`  | 1023px
 `cellAndDown` | 767px
 
-
+<br>
  
 ## Enjoy!
 

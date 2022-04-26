@@ -28,13 +28,24 @@ If you are not using a Nuxt environment or if you want to import individually in
 
   ```js
     <scprit>
-    import checkScreenMixin from '@luaguillande/checkScreenMixin.js'
+    import checkScreenMixin from '@luaguillande/screen-checker/checkScreenMixin.js'
 
     export default {
          mixins:[checkScreenMixin]
     }
     </scprit>
   ```
+  or 
+
+  ```js
+    <scprit>
+    import checkScreenMixin from '@luaguillande/screen-checker/checkScreenMixin.js'
+
+    Vue.mixins(checkScreenMixin)
+    </scprit>
+  ```
+
+
 
 ### 2. Usage
 
@@ -66,8 +77,44 @@ Use in js.
  <script>
   ```
 
-
+  
 ### Note: If you are using as a Nuxt injection use '$sc' else use 'sc'.
+
+<br>
+
+### 3. Boundaries
+
+#### Specifics screen size
+
+  Property | Min Size | Max Size
+--- | --- 
+`isLargeDesktop` | 1600px | 8200px
+`isDesktop` | 1280px | 1599px
+`isLargeTablet` | 1024px | 1279px
+`isTablet` | 768px  | 1023px
+`isCell` | 250px | 767px
+
+
+#### Screen size bigger than 
+
+  Property | Min Size
+--- | --- 
+`largeDesktopAndUp` | 1600px
+`desktopAndUp` | 1280px
+`largeTabletAndUp` | 1024px
+`tabletAndUp` | 768px  | 1023px
+`cellAndUp` | 250px
+
+#### Screen size smaller than 
+
+  Property | Max Size
+--- | --- 
+`largeDesktopAndDown` | 8200px
+`desktopAndDown` | 1599px
+`largeTabletAndDown` | 1279px
+`tabletAndDown`  | 1023px
+`cellAndDown` | 767px
+
 
  
 ## Enjoy!

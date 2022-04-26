@@ -87,7 +87,7 @@ Use in js.
 #### Specifics screen size
 
   Property | Min Size | Max Size
---- | --- 
+--- | --- | --- 
 `isLargeDesktop` | 1600px | 8200px
 `isDesktop` | 1280px | 1599px
 `isLargeTablet` | 1024px | 1279px
